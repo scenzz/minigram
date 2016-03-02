@@ -6,7 +6,7 @@ class GramsController < ApplicationController
     @gram = Gram.new
   end
   def create
-    @gram = Gram.new(params.require(:gram).permit(:title, :content, :country_code))
+    @gram = Gram.new(params.require(:gram).permit(:title, :content, :country_code, :image, :image_cache))
     if @gram.save
       flash[:notice]= 'Gram created!'
       redirect_to @gram

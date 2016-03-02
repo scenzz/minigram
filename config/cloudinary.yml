@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: scenzz
+  api_key: '291665293144826'
+  api_secret: NmW0DogU2AlHbXeNXEhhwx_gKYA
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: scenzz
+  api_key: '291665293144826'
+  api_secret: NmW0DogU2AlHbXeNXEhhwx_gKYA
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: scenzz
+  api_key: '291665293144826'
+  api_secret: NmW0DogU2AlHbXeNXEhhwx_gKYA
+  enhance_image_tag: true
+  static_image_support: false

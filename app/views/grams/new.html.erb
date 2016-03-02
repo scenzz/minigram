@@ -8,6 +8,11 @@
   </ul>
   </div>
   <% end %>
+
+  <div>
+  <%=f.hidden_field :image_cache %>
+  <%=f.file_field :image %>
+  </div>
     <div>
       <%=f.label :title %>
       <%= f.text_field :title %>
