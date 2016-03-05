@@ -14,6 +14,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    @user  = User.find(params[:id])
+    @grams = @user.grams.order(id: :desc).page(params[:page]).per(5)
   end
 end
