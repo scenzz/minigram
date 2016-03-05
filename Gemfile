@@ -54,4 +54,4 @@ gem 'cloudinary'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
-
+gem 'bcrypt', '~> 3.1.7' #
